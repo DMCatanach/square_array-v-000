@@ -12,6 +12,3 @@ def square_array_with_collect(array)
     number ** 2
   end
 end
-
-squared_array = square_array_with_collect([2,3,4])
-puts squared_array.inspect 
