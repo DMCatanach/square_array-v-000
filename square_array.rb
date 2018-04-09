@@ -10,6 +10,6 @@ def square_array_with_collect(array)
   array.collect do |number|
     number ** 2
   end
-end 
+end
 
-square_array_with_collect([2,3,4])
+puts square_array_with_collect([2,3,4])
