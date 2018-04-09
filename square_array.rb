@@ -6,8 +6,10 @@ def square_array(array)
   new_array
 end
 
-def squar_array_with_collect(array) 
+def square_array_with_collect(array)
   array.collect do |number|
-    number ** 2 
-  end 
+    number ** 2
+  end
 end 
+
+square_array_with_collect([2,3,4])
