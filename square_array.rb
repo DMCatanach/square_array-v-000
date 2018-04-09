@@ -13,4 +13,4 @@ def square_array_with_collect(array)
 end
 
 squared_array = square_array_with_collect([2,3,4])
-puts squared_array
+puts squared_array.inspect 
